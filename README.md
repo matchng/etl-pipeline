@@ -95,7 +95,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 4. Start Airflow:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 5. Access Airflow UI at `http://localhost:8080`
