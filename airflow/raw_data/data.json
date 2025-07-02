@@ -1,0 +1,19 @@
+{
+    "users": [
+      { "user_id": 1, "name": "Alice",   "signup_date": "2025-01-15" },
+      { "user_id": 2, "name": "Bob",     "signup_date": "2025-02-20" },
+      { "user_id": 3, "name": "Eve",     "signup_date": "2025-03-12" },
+      { "user_id": 4, "name": "Mallory", "signup_date": "2025-04-18" },
+      { "user_id": 5, "name": " Ken ",   "signup_date": "2025-04-20" },
+      { "user_id": 5, "name": " Ken ",   "signup_date": "2025-04-20" },
+      { "user_id": 6, "signup_date": "2025-04-23" }
+    ],
+    "transactions": [
+      { "txn_id": 101, "user_id": 1, "amount": 120.5, "timestamp": "2025-06-01T10:00:00" },
+      { "txn_id": 102, "user_id": 2, "amount": 85.0,  "timestamp": "2025-06-05T12:30:00" },
+      { "txn_id": 103, "user_id": 1, "amount": 75.2,  "timestamp": "2025-06-07T09:15:00" },
+      { "txn_id": 104, "user_id": 3, "amount": 150.0, "timestamp": "2025-06-08T14:20:00" },
+      { "txn_id": 105, "user_id": 4, "amount": 200.0, "timestamp": "2025-06-10T18:45:00" }
+    ]
+  }
+  
