@@ -1,0 +1,31 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Airflow logs and configs
+airflow/logs/
+airflow/output/
+airflow/airflow.db
+airflow/__pycache__/
+airflow/plugins/
+airflow.cfg
+airflow/config/
+
+
+# Local environment and secrets
+.env
+*.env
+
+# Output folders (auto-generated)
+cleaned/
+output_summary/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite/DB
+etl_pipeline.db
+
+# Docker artifacts
+*.pid
