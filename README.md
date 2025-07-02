@@ -1,8 +1,7 @@
-# Fake ETL Pipeline: Pandas Skills Reinforcement
+# ETL Pipeline: Pandas Skills Reinforcement
 
 ## 1. Overview
-
-This mini project simulates an end‑to‑end data engineering pipeline using synthetic data. It is designed to reinforce skill using Pandas for:
+This project simulates an end-to-end data engineering workflow using synthetic data. It reinforces core Pandas skills in a real-world ETL context and automates it using Apache Airflow (Docker-based).
 
 * **Data cleaning**: stripping whitespace, handling missing values (`dropna`, `fillna`).
 * **Data transformation & reshaping**: pivot tables (`pivot_table`), unpivoting (`melt`).
@@ -35,11 +34,11 @@ All raw and intermediate data live under `raw_data/` and `cleaned/`. Final outpu
 ## 3. Requirements
 
 ```bash
-pip install pandas
+pip install pandas notebook
 ```
 
-## 4. Usage
-
+## 4. Usage 
+**A. Manual ETL (Jupyter Notebook)**
 1. Open the Jupyter notebook `etl_challenge.ipynb`.
 2. Run each cell sequentially to: load raw CSVs, clean, merge, reshape, and export.
 3. All outputs will be generated under the `cleaned/` and `output_summary/` folders.
