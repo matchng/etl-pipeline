@@ -1,31 +1,32 @@
-# Jupyter Notebook checkpoints
+# Jupyter notebook artifacts
 .ipynb_checkpoints/
 
-# Airflow logs and configs
+# Airflow runtime files
 airflow/logs/
 airflow/output/
 airflow/airflow.db
-airflow/__pycache__/
+
+# Ignore Airflow plugins and config if unused
 airflow/plugins/
-airflow.cfg
 airflow/config/
 
-
-# Local environment and secrets
+# Ignore environment variables and local DB
 .env
 *.env
+etl_pipeline.db
 
-# Output folders (auto-generated)
+# Ignore outputs and cleaned data (generated)
 cleaned/
 output_summary/
 
-# Python caches
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# SQLite/DB
-etl_pipeline.db
+# System files
+.DS_Store
+
 
 # Docker artifacts
 *.pid
